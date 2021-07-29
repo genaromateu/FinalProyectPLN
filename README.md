@@ -8,6 +8,9 @@ Los modelos usados dentro del programa nos ayuda detectar la depresión de los d
 
 ## Uso 
 ## Requirement:
+## Clonado del repositorio
+## entrenamiento del modelo
+## Descripción del modelo
 
 
 
