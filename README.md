@@ -39,8 +39,8 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
 
                   precision    recall  f1-score   support
 
-               0       0.95      0.95      0.95      1225
-               1       0.95      0.95      0.95      1275
+          Normal       0.95      0.95      0.95      1225
+       Depressed       0.95      0.95      0.95      1275
 
         accuracy                           0.95      2500
        macro avg       0.95      0.95      0.95      2500
@@ -54,8 +54,8 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
 
                   precision    recall  f1-score   support
 
-               0       0.97      0.97      0.97      1225
-               1       0.97      0.97      0.97      1275
+          Normal       0.97      0.97      0.97      1225
+       Depressed       0.97      0.97      0.97      1275
 
         accuracy                           0.97      2500
        macro avg       0.97      0.97      0.97      2500
