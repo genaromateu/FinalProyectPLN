@@ -8,7 +8,11 @@ Los modelos usados dentro del programa nos ayuda detectar la depresión de los d
 
 ## Uso 
 ## Requirement:
+
 ## Clonado del repositorio
+```
+git clone https://github.com/genaromateu/FinalProyectPLN.git
+```
 ## entrenamiento del modelo
 ## Descripción del modelo
 
