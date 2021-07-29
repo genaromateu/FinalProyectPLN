@@ -24,7 +24,16 @@ pero las librerías que se utilizaron que no se encuentran en colab fueron las s
 git clone https://github.com/genaromateu/FinalProyectPLN.git
 ```
 ## entrenamiento del modelo
-## Descripción del modelo
+## Descripción de los modelos
+
+### Modelo 1 BERT
+
+BERT(Bidirectional Encoder Representation from Transformers) es un transformador pre-entrenado propuesto en el siguiente paper https://arxiv.org/abs/1810.04805. En este caso se utilizo la versión de BERT para la clasificación de secuencias para TensorFlow. Se utilizo la función de 'Sparce Categorical Crossentropy' para calcular la perdida y Adam como optimizador, con un 'learning rate' variable que empieza en 5e-5 y baja linealmente hasta 1e-7. Para el entrenamiento se utilizaron 'batches' de 100 por 3 épocas.
+
+### Modelo 2 DistilBERT
+
+DistilBERT es un transformador derivado de BERT que es más ligero y rápido ademas de que conserva mucha de la precisión de BERT. Se utilizo la versión para la clasificación de secuencias para TensorFlow, con los mismos hyperparametros que el modelo anterior.
+
 ## Resultados
 
 
