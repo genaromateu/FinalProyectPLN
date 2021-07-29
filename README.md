@@ -6,6 +6,9 @@ Los modelos usados dentro del programa nos ayudan detectar la depresión de los 
 
 ## Uso 
 ## Requirement:
+
+**se debe de correr el código en google Colab para asegurar su correcto funcionamiento**
+
 de forma específica se puede encontrar en el archivo requirements.txt 
 pero las librerías que se utilizaron que no se encuentran en colab fueron las siguientes:
 
@@ -14,7 +17,7 @@ pero las librerías que se utilizaron que no se encuentran en colab fueron las s
 - re
 - transformers
 
-**se debe de correr el código en google Colab para asegurar su correcto funcionamiento**
+
 
 ## Clonado del repositorio
 ```
