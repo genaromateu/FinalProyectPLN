@@ -8,6 +8,13 @@ Los modelos usados dentro del programa nos ayuda detectar la depresión de los d
 
 ## Uso 
 ## Requirement:
+de forma especifica se puede encontrar en el archivo requirements.txt
+pero las librerías que se utilizaron que no se encuentran en colab fueron las siguientes:
+
+- nltk
+- emoji
+- re
+- transformers
 
 ## Clonado del repositorio
 ```
