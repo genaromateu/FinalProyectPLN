@@ -23,8 +23,7 @@ pero las librerías que se utilizaron que no se encuentran en colab fueron las s
 ```
 git clone https://github.com/genaromateu/FinalProyectPLN.git
 ```
-## entrenamiento del modelo
-## Descripción de los modelos
+## Descripción y entrenamiento de los modelos
 
 ### Modelo 1 BERT
 
@@ -36,8 +35,36 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
 
 ## Resultados
 
+### BERT
 
+                  precision    recall  f1-score   support
 
+               0       0.95      0.95      0.95      1225
+               1       0.95      0.95      0.95      1275
+
+        accuracy                           0.95      2500
+       macro avg       0.95      0.95      0.95      2500
+    weighted avg       0.95      0.95      0.95      2500
+
+                      Pred. Normal	  Pred. Depressed
+    True Normal       1164	          61
+    True Depressed	  65              1210
+
+### DistilBERT
+
+                  precision    recall  f1-score   support
+
+               0       0.97      0.97      0.97      1225
+               1       0.97      0.97      0.97      1275
+
+        accuracy                           0.97      2500
+       macro avg       0.97      0.97      0.97      2500
+    weighted avg       0.97      0.97      0.97      2500
+    
+    
+                      Pred. Normal	  Pred. Depressed
+    True Normal       1192	          33
+    True Depressed	  37              1238
 
 
 
