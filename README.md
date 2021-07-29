@@ -5,7 +5,7 @@ no se logró utilizar el 100% de los datos por problemas de googlecolab y espaci
 
 Los modelos usados dentro del programa nos ayuda detectar la depresión de los diferentes tipos de comentarios
 
-
+# Uso 
 
 
 
