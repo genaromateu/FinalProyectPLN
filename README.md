@@ -14,6 +14,8 @@ pero las librerías que se utilizaron que no se encuentran en colab fueron las s
 - re
 - transformers
 
+**se debe de correr el código en google Colab para asegurar su correcto funcionamiento**
+
 ## Clonado del repositorio
 ```
 git clone https://github.com/genaromateu/FinalProyectPLN.git
