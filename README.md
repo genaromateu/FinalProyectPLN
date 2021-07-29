@@ -33,8 +33,7 @@ Los modelos usados dentro del programa nos ayuda detectar la depresión de los d
 
 
 
-
-Paginas consultadas:
+# Paginas Consultadas:
 
 http://amsantac.co/blog/es/2016/09/20/balanced-image-classification-r-es.html -- se utilizó la web para ver la importancia de trabajar con datos balanceados
 
