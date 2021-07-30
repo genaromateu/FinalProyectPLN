@@ -27,7 +27,7 @@ Para más información consultar el archivo requirements.txt
 
 ## Uso del código
 
-**Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento. **
+Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
 
 **Se requiere obtener un archivo kaggle.json para algunas de las bases de datos**
 
