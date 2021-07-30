@@ -15,6 +15,9 @@ Librerias utilizadas:
 - re
 - sklearn
 - keras
+- numpy
+- matplotlib
+- tensorflow
 
 Librerias instaladas en Google Colab:
 - transformers
