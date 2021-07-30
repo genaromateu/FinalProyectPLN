@@ -85,3 +85,8 @@ https://github.com/JDAI-CV/CoTNet -- se utilizó para basarnos en el estilo del 
 
 https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax se utilizó para conocer los formatos de sintaxis de la plataforma
 
+se utilizó para obtener parte de la data
+ - https://github.com/shaoxiongji/sw-detection/tree/master/data 
+ 
+- https://www.kaggle.com/saurabhshahane/twitter-dataset-based-on-depressive-words?select=tweetdata.txt
+
