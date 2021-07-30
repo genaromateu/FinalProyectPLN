@@ -1,8 +1,8 @@
 # Modelo para detectar depresión en usuarios en base a comentarios en redes sociales
 ## Introducción
-Este repositorio incluye bases de datos etiquetadas con positivo y negativo de más de 102 mil datos. Los datos fueron obtenidos utilizando bases de datos ya preexistentes que se encuentran disponibles en internet (para más información checar Paginas Consultadas). Tambien se utilizo un webscrapping, se realizó para complementar la información y mantener un balance en los datos sin tener la necesidad de recurrir a recursos como la utilización de datos sintéticos. No se logró utilizar el 100% de los datos recolectados por problemas con Google Colab y espacios de memoria, por lo que tuvimos que reducir la muestra a 20 mil datos. Se llegó a esta cifra tras varios experimentos con diferentes cantidades.Después de estas pruebas se comprobó que con 20 mil datos se obtenía el mejor desempeño sin tener tiempos muy largos de espera al correr el código.
+Este repositorio incluye bases de datos etiquetadas con positivo y negativo de más de 102 mil datos. Los datos fueron obtenidos utilizando bases de datos ya preexistentes que se encuentran disponibles en internet (para más información checar Páginas Consultadas). También se utilizó un webscrapping, se realizó para complementar la información y mantener un balance en los datos sin tener la necesidad de recurrir a recursos como la utilización de datos sintéticos. No se logró utilizar el 100% de los datos recolectados por problemas con Google Colab y espacios de memoria, por lo que tuvimos que reducir la muestra a 20 mil datos. Se llegó a esta cifra tras varios experimentos con diferentes cantidades. Posteriormente, se comprobó que con 20 mil datos se obtenía el mejor desempeño sin tener tiempos muy largos de espera al correr el código.
 
-Los modelos usados dentro del programa nos ayudan detectar la depresión de los comentarios obtenidos de diferentes plataformas como Twitter y Reddit.
+Los modelos usados dentro del programa nos ayudan a detectar la depresión de los comentarios obtenidos de diferentes plataformas como Twitter y Reddit.
 
 ## Requirement
 
@@ -27,6 +27,8 @@ Para más información consultar el archivo requirements.txt
 
 ## Uso del código
 
+**Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento. **
+
 **Se requiere obtener un archivo kaggle.json para algunas de las bases de datos**
 
 Para más información consultar la documentación oficial https://www.kaggle.com/docs/api
@@ -39,11 +41,11 @@ git clone https://github.com/genaromateu/FinalProyectPLN.git
 
 ### Modelo 1 BERT
 
-BERT(Bidirectional Encoder Representation from Transformers) es un transformador pre-entrenado propuesto en el siguiente paper https://arxiv.org/abs/1810.04805. En este caso se utilizo la versión de BERT para la clasificación de secuencias para TensorFlow. Se utilizo la función de 'Sparce Categorical Crossentropy' para calcular la perdida y Adam como optimizador, con un 'learning rate' variable que empieza en 5e-5 y baja linealmente hasta 1e-7. Para el entrenamiento se utilizaron 'batches' de 100 por 3 épocas.
+BERT(Bidirectional Encoder Representation from Transformers) es un transformador pre-entrenado propuesto en el siguiente paper https://arxiv.org/abs/1810.04805. En este caso se utilizó la versión de BERT para la clasificación de secuencias para TensorFlow. Se utilizó la función de 'Sparce Categorical Crossentropy' para calcular la pérdida, Adam como optimizador y con un 'learning rate' variable que empieza en 5e-5 y baja linealmente hasta 1e-7. Para el entrenamiento se utilizaron 'batches' de 100 por 3 épocas.
 
 ### Modelo 2 DistilBERT
 
-DistilBERT es un transformador derivado de BERT que es más ligero y rápido ademas de que conserva mucha de la precisión de BERT. Se utilizo la versión para la clasificación de secuencias para TensorFlow, con los mismos hyperparametros que el modelo anterior.
+DistilBERT es un transformador derivado de BERT que es más ligero y rápido además de que conserva mucha de la precisión de BERT. Se utilizó la versión para la clasificación de secuencias para TensorFlow, con los mismos hyperparámetros que el modelo anterior.
 
 ## Resultados
 
@@ -86,7 +88,7 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
 
 ![image](https://user-images.githubusercontent.com/22597422/127587590-bbf56240-d4d8-43ea-8c01-3f5c73758f50.png)
 
-## Paginas Consultadas
+## Páginas Consultadas
 
 http://amsantac.co/blog/es/2016/09/20/balanced-image-classification-r-es.html -- se utilizó la web para ver la importancia de trabajar con datos balanceados
 
