@@ -88,7 +88,7 @@ http://amsantac.co/blog/es/2016/09/20/balanced-image-classification-r-es.html --
 
 https://github.com/JDAI-CV/CoTNet -- se utilizó para basarnos en el estilo del github
 
-https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax se utilizó para conocer los formatos de sintaxis de la plataforma
+https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -- se utilizó para conocer los formatos de sintaxis de la plataforma
 
 Bases de datos:
 - DepressionTweets - https://www.kaggle.com/samrats/depressiontweets
