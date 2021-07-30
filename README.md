@@ -94,7 +94,7 @@ https://github.com/JDAI-CV/CoTNet -- se utilizó para basarnos en el estilo del 
 
 https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -- se utilizó para conocer los formatos de sintaxis de la plataforma
 
-Bases de datos:
+**Bases de datos**:
 - DepressionTweets - https://www.kaggle.com/samrats/depressiontweets
 - English depression related posts from Reddit - https://www.kaggle.com/luizfmatos/reddit-english-depression-related-submissions
 - Sentimental Analysis NLP - https://www.kaggle.com/ashishpatel26/sentimental-analysis-nlp?select=neg_tweets.txt
