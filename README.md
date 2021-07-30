@@ -1,21 +1,20 @@
 # Modelo para detectar depresión en usuarios en base a comentarios en redes sociales
 ## Introducción
-Este repositorio incluye bases de datos etiquetadas con positivo y negativo de más de 102mil datos, estos datos fueron obtenidos por medio de otras bases de datos ya preexistentes(al final del documento se encuentra la información de donde se tomó la información) además de una complementación de estas por medio de un webscrapping, esto se realizó para terminar de complementar la información y que se tuviera un balance de la misma sin tener la necesidad de utilizar recursos como la utilización de datos sintéticos. no se logró utilizar el 100% de los datos por problemas de googlecolab y espacios de memoria por lo que tuvimos que reducir la muestra de la información a 20mil datos para tener un desempeño óptimo sin tener tiempos muy largos de espera al correr el código.
+Este repositorio incluye bases de datos etiquetadas con positivo y negativo de más de 102 mil datos. Los datos fueron obtenidos utilizando bases de datos ya preexistentes que se encuentran disponibles en internet (para más información checar Paginas Consultadas). Tambien se utilizo un webscrapping, se realizó para complementar la información y mantener un balance en los datos sin tener la necesidad de recurrir a recursos como la utilización de datos sintéticos. No se logró utilizar el 100% de los datos recolectados por problemas con Google Colab y espacios de memoria, por lo que tuvimos que reducir la muestra a 20 mil datos. Se llego a esta cifra tras varios experimentos con diferentes cantidades, con 20 mil datos se logro el mejor desempeño sin tener tiempos muy largos de espera al correr el código.
 
-Los modelos usados dentro del programa nos ayudan detectar la depresión de los diferentes tipos de comentarios
+Los modelos usados dentro del programa nos ayudan detectar la depresión de los comentarios obtenidos de diferentes plataformas como Twitter y Reddit.
 
 ## Requirement:
 
-**se debe de correr el código en google Colab para asegurar su correcto funcionamiento**
+**Se debe de correr el código en Google Colab para asegurar su correcto funcionamiento.**
 
-de forma específica se puede encontrar en el archivo requirements.txt 
-pero las librerías que se utilizaron que no se encuentran en colab fueron las siguientes:
+De forma específica se puede encontrar en el archivo requirements.txt 
+pero las librerías que se utilizaron que no se encuentran en colab son las siguientes:
 
 - nltk
 - emoji
 - re
 - transformers
-
 
 
 ## Clonado del repositorio
@@ -64,24 +63,6 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
                       Pred. Normal	  Pred. Depressed
     True Normal       1192	          33
     True Depressed	  37              1238
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
