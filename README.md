@@ -22,6 +22,8 @@ Librerias instaladas en Google Colab:
 
 Para mas informacion consultar el archivo requirements.txt
 
+## uso del codigo
+
 ## Clonado del repositorio
 ```
 git clone https://github.com/genaromateu/FinalProyectPLN.git
