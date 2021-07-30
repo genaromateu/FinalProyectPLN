@@ -27,6 +27,8 @@ Para más información consultar el archivo requirements.txt
 
 ## Uso del código
 
+El archivo final del modelo: Modelo.ipynb
+
 Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
 
 Considerar los archivos:
