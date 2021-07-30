@@ -47,6 +47,10 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
                       Pred. Normal	  Pred. Depressed
     True Normal       1164	          61
     True Depressed	  65              1210
+    
+    
+![image](https://user-images.githubusercontent.com/22597422/127587702-18dc116d-d16a-4727-b956-c3c7ac7740fe.png)
+
 
 ### DistilBERT
 
@@ -65,6 +69,8 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
     True Depressed	  37              1238
 
 
+
+![image](https://user-images.githubusercontent.com/22597422/127587590-bbf56240-d4d8-43ea-8c01-3f5c73758f50.png)
 
 ## Paginas Consultadas:
 
