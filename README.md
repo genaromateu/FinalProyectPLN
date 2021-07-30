@@ -23,9 +23,13 @@ Librerias instaladas en Google Colab:
 - transformers
 - emoji
 
-Para mas informacion consultar el archivo requirements.txt
+Para más información consultar el archivo requirements.txt
 
 ## Uso del código
+
+**Se requiere obtener un archivo kaggle.json para algunas de las bases de datos**
+
+Para más información consultar la documentación oficial https://www.kaggle.com/docs/api
 
 ## Clonado del repositorio
 ```
