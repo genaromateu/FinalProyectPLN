@@ -6,7 +6,7 @@ Los modelos usados dentro del programa nos ayudan a detectar la depresión de lo
 
 ## Requirement
 
-**Se debe de correr el código en Google Colab para asegurar su correcto funcionamiento.**
+**Se debe de correr el código en Google Colab para asegurar su funcionamiento adecuado.**
 
 Librerias utilizadas:
 - pandas
