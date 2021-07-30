@@ -29,6 +29,8 @@ Para más información consultar el archivo requirements.txt
 
 El archivo final del modelo: Modelo.ipynb
 
+El archivo del webscrapping: Happy_Reddit.ipynb
+
 Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
 
 Considerar los archivos:
