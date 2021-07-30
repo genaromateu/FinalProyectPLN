@@ -4,7 +4,7 @@ Este repositorio incluye bases de datos etiquetadas con positivo y negativo de m
 
 Los modelos usados dentro del programa nos ayudan detectar la depresión de los comentarios obtenidos de diferentes plataformas como Twitter y Reddit.
 
-## Requirement:
+## Requirement
 
 **Se debe de correr el código en Google Colab para asegurar su correcto funcionamiento.**
 
@@ -25,7 +25,7 @@ Librerias instaladas en Google Colab:
 
 Para mas informacion consultar el archivo requirements.txt
 
-## uso del código
+## Uso del código
 
 ## Clonado del repositorio
 ```
@@ -82,7 +82,7 @@ DistilBERT es un transformador derivado de BERT que es más ligero y rápido ade
 
 ![image](https://user-images.githubusercontent.com/22597422/127587590-bbf56240-d4d8-43ea-8c01-3f5c73758f50.png)
 
-## Paginas Consultadas:
+## Paginas Consultadas
 
 http://amsantac.co/blog/es/2016/09/20/balanced-image-classification-r-es.html -- se utilizó la web para ver la importancia de trabajar con datos balanceados
 
