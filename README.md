@@ -8,14 +8,19 @@ Los modelos usados dentro del programa nos ayudan detectar la depresión de los 
 
 **Se debe de correr el código en Google Colab para asegurar su correcto funcionamiento.**
 
-De forma específica se puede encontrar en el archivo requirements.txt 
-pero las librerías que se utilizaron que no se encuentran en colab son las siguientes:
-
+Librerias utilizadas:
+- pandas
+- google
 - nltk
-- emoji
 - re
-- transformers
+- sklearn
+- keras
 
+Librerias instaladas en Google Colab:
+- transformers
+- emoji
+
+Para mas informacion consultar el archivo requirements.txt
 
 ## Clonado del repositorio
 ```
