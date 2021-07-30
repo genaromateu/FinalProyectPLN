@@ -53,6 +53,7 @@ BERT(Bidirectional Encoder Representation from Transformers) es un transformador
 DistilBERT es un transformador derivado de BERT que es más ligero y rápido además de que conserva mucha de la precisión de BERT. Se utilizó la versión para la clasificación de secuencias para TensorFlow, con los mismos hyperparámetros que el modelo anterior.
 
 ## Resultados
+*Los resultados varían cada vez que se entrena el modelo*
 
 ### BERT
 
