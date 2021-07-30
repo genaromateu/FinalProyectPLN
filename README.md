@@ -34,6 +34,8 @@ Considerar los archivos:
 - sample_data_1.xlsx
 - sample_data_2.xlsx
 
+Video de ejemplo: https://youtu.be/dIltb2rWeD4
+
 **Se requiere obtener un archivo kaggle.json para algunas de las bases de datos**
 
 Para más información consultar la documentación oficial https://www.kaggle.com/docs/api
