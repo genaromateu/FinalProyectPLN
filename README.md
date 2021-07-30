@@ -29,6 +29,11 @@ Para más información consultar el archivo requirements.txt
 
 Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
 
+Considerar los archivos:
+- data_1.txt
+- sample_data_1.xlsx
+- sample_data_2.xlsx
+
 **Se requiere obtener un archivo kaggle.json para algunas de las bases de datos**
 
 Para más información consultar la documentación oficial https://www.kaggle.com/docs/api
