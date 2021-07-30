@@ -4,7 +4,6 @@ Este repositorio incluye bases de datos etiquetadas con positivo y negativo de m
 
 Los modelos usados dentro del programa nos ayudan detectar la depresión de los diferentes tipos de comentarios
 
-## Uso 
 ## Requirement:
 
 **se debe de correr el código en google Colab para asegurar su correcto funcionamiento**
